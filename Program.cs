@@ -75,8 +75,8 @@
 // 5 -> 1, 4, 9, 16, 25.
 // 2 -> 1,4
 
-Console.WriteLine("Введите число");
-int N = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число");
+// int N = Convert.ToInt32(Console.ReadLine());
 // int count = 1;
 // while(count<=N)
 // {
@@ -84,8 +84,28 @@ int N = Convert.ToInt32(Console.ReadLine());
 //     count++;
 // }
 
-for (int count = 1; count<=N; count++) {
-	double result = Math.Pow(count, 2);
-	Console.WriteLine(result);
-}
+// for (int count = 1; count<=N; count++) {
+// 	double result = Math.Pow(count, 2);
+// 	Console.WriteLine(result);
+// }
 
+
+
+// Console.WriteLine("Введите число");
+// int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Сумма -"+GetSum(num));
+
+// int GetSum(int number)
+// {
+// int sum = 0;
+// int count = 0;
+
+// while(number>count)
+// {
+// 	count++;
+// 	sum+=count;
+
+// // }
+// // return sum;
+
+// }
