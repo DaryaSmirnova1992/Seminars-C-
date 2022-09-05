@@ -41,18 +41,53 @@
 // 3  -> 11
 // 2  -> 10
 
-Console.WriteLine("Введите десятичное число");
-int number = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите десятичное число");
+// int number = Convert.ToInt32(Console.ReadLine());
 
-void TenToBinary(int n)
-{
-    string binaryNum = string.Empty;
-    while (n > 0)
-    {
-        binaryNum = n%2 + binaryNum;
-        n = n/2;
-    }
-Console.WriteLine(binaryNum);
-}
-TenToBinary(number);
+// void TenToBinary(int n)
+// {
+//     string binaryNum = string.Empty;
+//     while (n > 0)
+//     {
+//         binaryNum = n%2 + binaryNum;
+//         n = n/2;
+//     }
+// Console.WriteLine(binaryNum);
+// }
+// TenToBinary(number);
 
+
+// Не используя рекурсию, выведите первые N чисел Фибоначчи. Первые два числа Фибоначчи: 0 и 1.
+// Если N = 5 -> 0 1 1 2 3
+// Если N = 3 -> 0 1 1
+// Если N = 7 -> 0 1 1 2 3 5 8
+
+// Console.WriteLine("Введите число n ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// int [] array = new int[number];
+// array[0] = 0;
+// array[1] = 1;
+// for (int i = 2; i < number-1; i++)
+// {
+//     array[i+1] = array[i] + array[i-1];
+//     Console.Write(array[i+1]+ " ");
+// }
+
+// НЕ РАБОТАЕТ
+
+// Console.WriteLine("Введите число n ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// int firstNum = 0;
+// int secondNum = 1;
+// Console.Write(firstNum + ", ");
+// Console.Write(secondNum);
+
+// for(int i = 3; i <= num; i++)
+// {
+//     int newNum = firstNum + secondNum;
+//     Console.Write(", " + newNum);
+//     firstNum = secondNum;
+//     secondNum = newNum;
+// }
